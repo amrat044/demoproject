@@ -7,28 +7,7 @@
     <groupId>demoprojectgroupid</groupId>
     <artifactId>demoproject</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <build>
-        <pluginManagement>
+    <packaging>jar</packaging>
 
 
-        <plugins>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>test-jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-
-        </plugins>
-        </pluginManagement>
-    </build>
 </project>
